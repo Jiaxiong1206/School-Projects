@@ -1,0 +1,82 @@
+<deployment-project plugin="plugin.apptool" plugin-version="1.0">
+  <configuration build-checksum="4230975080" file="C:\Users\jiaxi\Desktop\new\new\new\compressible flow calculator.prj" location="C:\Users\jiaxi\Desktop\new\new\new" name="compressible flow calculator" target="target.mlapps" target-name="Package App">
+    <param.appname>compressible flow calculator</param.appname>
+    <param.authnamewatermark>Liang</param.authnamewatermark>
+    <param.email>jiaxiong.liang8@gmail.com</param.email>
+    <param.company />
+    <param.icon />
+    <param.icons />
+    <param.summary />
+    <param.description />
+    <param.screenshot>C:\Users\jiaxi\AppData\Local\Temp\tpcdd8dbbe_0536_4600_baf5_274d4b6ece39.png</param.screenshot>
+    <param.version>1.0</param.version>
+    <param.products.name />
+    <param.products.id />
+    <param.products.version />
+    <param.platforms />
+    <param.output>${PROJECT_ROOT}</param.output>
+    <param.guid>09a9fe72-cb3d-4da5-b245-8ea0df4f2a4b</param.guid>
+    <unset>
+      <param.company />
+      <param.icon />
+      <param.icons />
+      <param.summary />
+      <param.description />
+      <param.version />
+      <param.products.name />
+      <param.products.id />
+      <param.products.version />
+      <param.platforms />
+      <param.output />
+    </unset>
+    <fileset.main>
+      <file>${PROJECT_ROOT}\LINA.mlapp</file>
+    </fileset.main>
+    <fileset.depfun>
+      <file>${PROJECT_ROOT}\fifth_case.m</file>
+      <file>${PROJECT_ROOT}\first_case.m</file>
+      <file>${PROJECT_ROOT}\fourth_case.m</file>
+      <file>${PROJECT_ROOT}\gas frame moving.png</file>
+      <file>${PROJECT_ROOT}\mach2.m</file>
+      <file>${PROJECT_ROOT}\newtonRaphson.m</file>
+      <file>${PROJECT_ROOT}\pressure_ratio.m</file>
+      <file>${PROJECT_ROOT}\rho_ratio.m</file>
+      <file>${PROJECT_ROOT}\Screenshot 2023-07-04 234959.png</file>
+      <file>${PROJECT_ROOT}\second_case.m</file>
+      <file>${PROJECT_ROOT}\temperature_ratio.m</file>
+      <file>${PROJECT_ROOT}\third_case.m</file>
+    </fileset.depfun>
+    <fileset.resources />
+    <fileset.package />
+    <build-deliverables>
+      <file location="C:\Users\jiaxi\Desktop\new\new" name="new" optional="false">C:\Users\jiaxi\Desktop\new\new\new</file>
+    </build-deliverables>
+    <workflow />
+    <matlab>
+      <root>C:\Program Files\MATLAB\R2023a</root>
+      <toolboxes>
+        <toolbox name="neuralnetwork" />
+      </toolboxes>
+      <toolbox>
+        <neuralnetwork>
+          <enabled>true</enabled>
+        </neuralnetwork>
+      </toolbox>
+    </matlab>
+    <platform>
+      <unix>false</unix>
+      <mac>false</mac>
+      <windows>true</windows>
+      <win2k>false</win2k>
+      <winxp>false</winxp>
+      <vista>false</vista>
+      <linux>false</linux>
+      <solaris>false</solaris>
+      <osver>10.0</osver>
+      <os32>false</os32>
+      <os64>true</os64>
+      <arch>win64</arch>
+      <matlab>true</matlab>
+    </platform>
+  </configuration>
+</deployment-project>
